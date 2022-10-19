@@ -173,7 +173,7 @@ def Random():
     print(f"")
     limit = int(input(' EXAMPLE: 1000, 2000, 5000, 10000\n\n PUT CLONING LIMIT: '))
     
-    for nmbr in range(limit):10000
+    for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(11-len(code)))
         user.append(nmp)
     with ThreadPool(max_workers=30) as yaari:    
